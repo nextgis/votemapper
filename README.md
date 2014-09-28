@@ -23,4 +23,4 @@ Load test data on State Duma elections of 2011 in Moscow:
 
 As a result, bunch of static files with the map and all stuff are generated in the output directory. 
 
-Demo: http://nextgis.github.io/vm-2011-moscow-duma
+Demo: http://nextgis.github.io/votemapper-data
