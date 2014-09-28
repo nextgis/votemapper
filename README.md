@@ -1,26 +1,26 @@
 # VoteMapper
 
-Рабочая директория:
+Working directory:
 
     $ mkdir votemapper
     $ cd votemapper
 
-Создаем окружение vitrualenv:
+Create vitrualenv:
 
     $ virtualenv --no-site-packages env
     $ source env/bin/activate
 
-Устанавливаем пакет в режиме разработки:
+Install package in development mode:
 
     $ git clone git@github.com:nextgis/votemapper.git
     $ pip install -e votemapper
 
-Загружаем тестовые данные по выборам в ГосДуму 2011 года в Москве:
+Load test data on State Duma elections of 2011 in Moscow:
 
     $ git clone git@github.com:nextgis/vm-2011-moscow-duma.git
     $ mkdir output
     $ votemapper vm-2011-moscow-duma/config.yaml output
 
-В результате в директории output окажется набор статических файлов с
-интерактивной веб-картой. Приблизительный результат можно посмотреть
-[тут](http://nextgis.github.io/vm-2011-moscow-duma/).
+As a result, bunch of static files with the map and all stuff are generated in the output directory. 
+
+Demo: http://nextgis.github.io/vm-2011-moscow-duma
